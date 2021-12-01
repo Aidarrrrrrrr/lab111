@@ -1,0 +1,91 @@
+body{
+	margin: 0;
+	font-family: Poppins;
+	font-weight: normal;
+}
+.container{
+	width: 100%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+.ii{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form{
+	flex: 3;
+}
+.img{
+	flex: 7;
+}
+form{
+
+	padding: 36px 35px;
+	border: 0.5px solid #878787;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+}
+input[type="text"], input[type="password"]{
+	padding: 19px 0 19px 27px;
+	width: 396px;
+	border: 0.6px solid #282828;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.for{
+	text-decoration: none;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 18px;
+	color: #4D4D4D;
+}
+.btns{
+	background: #000000;
+	border-radius: 6px;
+	width: 100%;
+	height: 57px;
+	color: white;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	border: none;
+}
+.new{
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 24px;
+	color: #7D7D7D;
+}
+.new a{
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+
+@media all and (max-width: 375px){
+	.img{
+		display: none;
+	}
+	.ii{
+		display: block;
+	}
+	.form{
+		width: 100%;
+		margin-top: 50px;
+	}
+	input[type="text"], input[type="password"]{
+		width: 100%;
+	}
+}
